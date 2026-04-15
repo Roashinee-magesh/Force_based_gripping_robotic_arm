@@ -1,13 +1,17 @@
 Smart Robotic Arm with Force-Based Gripping
+
 Overview:
+
 This project presents a 3-DOF robotic arm controlled using an ESP32 and PCA9685 servo driver. The system features an adaptive gripper that uses force feedback 
 from FSR sensors to securely grasp objects without causing damage. The gripping action automatically stops when sufficient force is detected.
 Features:
+
 3-DOF robotic arm (Base, Arm, Gripper)
 Serial command-based control
 Force-controlled adaptive gripping using FSR sensors
 Real-time feedback to prevent over-gripping
 Expandable for automation and intelligent control
+
 Hardware Components:
 ESP32 Development Board
 PCA9685 16-Channel Servo Driver
